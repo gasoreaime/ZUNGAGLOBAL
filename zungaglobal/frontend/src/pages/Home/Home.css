@@ -1,0 +1,17 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.main-content {
+  padding-top: 70px; /* Account for fixed header */
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure sections have proper spacing */
+section {
+  scroll-margin-top: 80px;
+}

@@ -1,0 +1,100 @@
+.header {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #ffd700; /* gold hover */
+}
+
+/* User & Cart section */
+.user-cart {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.guest-links button,
+.logged-in .btn-logout {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-login {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+.btn-register {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-register:hover {
+  background-color: #1e7e34;
+}
+
+.btn-logout {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-logout:hover {
+  background-color: #a71d2a;
+}
+
+.username {
+  font-weight: bold;
+}
+
+/* Cart icon */
+.cart-icon {
+  position: relative;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+}
